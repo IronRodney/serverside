@@ -237,7 +237,7 @@ VALUES   (
     5
   );
 
--- Modify string using a single query
+/*-- Modify string using a single query
 UPDATE inventory
 SET inv_description = REPLACE(inv_description, 'the small interiors', 'a huge interior')
 WHERE
@@ -246,4 +246,4 @@ WHERE
 -- Modify a path using a single query
 UPDATE inventory
 SET inv_image = REPLACE(inv_image, '/images/', '/images/vehicles/'),
-	inv_thumbnail = REPLACE(inv_thumbnail, '/images/', '/images/vehicles/');
+	inv_thumbnail = REPLACE(inv_thumbnail, '/images/', '/images/vehicles/'); */
